@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя професія: DATA Science and AI</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5dc; /* Гарний фон */
+            color: #333;
+            margin: 20px; /* Відступи від країв сторінки */
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #0066cc;
+            margin-bottom: 20px; /* Відступ після заголовка */
+        }
+
+        p {
+            font-size: 16px;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+	    background-color: #f5c58c;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #990000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .animated-text {
+            animation: colorChange 2s infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: #333; }
+            50% { color: #ff6600; }
+            100% { color: #333; }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    function greetUser() {
+        let userName;
+
+        do {
+            userName = prompt("Введи своє ім'я");
+        } while (userName === null || userName.trim() === "");
+
+        alert("Вітаю, " + userName + ", на моїй сторінці!");
+    }
+
+    window.onload = greetUser;
+</script>
+
+<h1>Моя професія: DATA Science and AI</h1>
+
+<p>Data Science & AI - це дві високотехнологічні галузі з великим попитом на ринку праці. Плюси включають можливість інновацій та досягнень у різних галузях. Мінуси включають складність обробки великих обсягів даних, проблеми безпеки та конфіденційності, а також етичні аспекти використання штучного інтелекту.</p>
+
+<table>
+    <caption>Час, виділений для підготовки для вступу на тиждень</caption>
+    <tr>
+        <th>Номер</th>
+        <th>Назва предмету на НМТ</th>
+        <th>Кількість годин</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Математика</td>
+        <td>14-20</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Історія</td>
+        <td>3-5</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Українська мова</td>
+        <td>5-8</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Англійська мова</td>
+        <td>8-10</td>
+    </tr>
+</table>
+
+<p>Докладніша інформація про мою професію доступна на <a href="https://dou.ua/lenta/articles/how-i-became-data-analyst/">посилання_на_сторінку_в_Інтернеті</a>.</p>
+<p class="animated-text">Цей рядок різнокольоровий.</p>
+
+<marquee behavior="scroll" direction="right" scrollamount="5">
+    А цей рухомий.
+</marquee>
+
+<a href="second_page.html">Перейти на другу сторінку</a>
+
+<img src="C:\Users\Alex\Desktop\Data_science_121.jpg" alt="Data visualisation">
+
+</body>
+</html>
